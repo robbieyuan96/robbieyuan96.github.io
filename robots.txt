@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: /css
+Disallow: /img
+Disallow: /js
+Disallow: /scss
+Disallow: /vendor
+
+Sitemap: http://emco.io/sitemap.xml
