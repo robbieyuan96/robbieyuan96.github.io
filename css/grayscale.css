@@ -3,8 +3,8 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  color: #4A4A4A;
-  background-color: #FAFAFA;
+  color: #4a4a4a;
+  background-color: #fafafa;
 }
 
 html {
@@ -47,7 +47,8 @@ a {
   color: black;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   text-decoration: none;
   color: #1d9b6c;
 }
@@ -64,8 +65,9 @@ a:focus, a:hover {
   font-size: 14px;
   padding: 11px;
   color: white;
-/*  border: 1px solid white;
-*/}
+  /*  border: 1px solid white;
+*/
+}
 
 #mainNav .navbar-brand {
   font-weight: 700;
@@ -87,7 +89,8 @@ a:focus, a:hover {
   background-color: transparent;
 }
 
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
@@ -96,9 +99,12 @@ a:focus, a:hover {
   #mainNav {
     padding-top: 20px;
     padding-bottom: 20px;
-    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -webkit-transition: background 0.3s ease-in-out,
+      padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out,
+      padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out,
+      padding-bottom 0.3s;
     letter-spacing: 1px;
     border-bottom: none;
     background: transparent;
@@ -106,8 +112,9 @@ a:focus, a:hover {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-/*    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-*/    background: rgba(0, 0, 0, 0.8);
+    /*    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+*/
+    background: rgba(0, 0, 0, 0.8);
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -125,7 +132,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url('../img/intro-bg.jpg') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -174,7 +181,8 @@ a:focus, a:hover {
   background: transparent;
 }
 
-.btn-circle:focus, .btn-circle:hover {
+.btn-circle:focus,
+.btn-circle:hover {
   color: white;
   outline: none;
   background: rgba(255, 255, 255, 0.1);
@@ -186,9 +194,10 @@ a:focus, a:hover {
 }
 
 .download-section {
-  color: #4A4A4A;
-/*  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-*/  background-color: #F2F2F2;
+  color: #4a4a4a;
+  /*  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+*/
+  background-color: #f2f2f2;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -221,16 +230,17 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #42dca3;
+  border: 1px solid #42dca3;
   background-color: transparent;
 }
 
-.btn-default:focus, .btn-default:hover {
+.btn-default:focus,
+.btn-default:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid #42dca3;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #42dca3;
 }
 
 ul.banner-social-buttons {
@@ -303,7 +313,7 @@ img::-moz-selection {
 
 #download .col-md-4 img {
   padding-bottom: 20px;
-/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 */
 }
 
@@ -312,7 +322,7 @@ img::-moz-selection {
 }
 
 #download .iterations img {
-max-width: 50%;
+  max-width: 50%;
 }
 
 #download span {
@@ -338,7 +348,7 @@ max-width: 50%;
 }
 
 #download .form img {
- /* padding-top: 50px;*/
+  /* padding-top: 50px;*/
 }
 
 #download .form .pLeft p {
@@ -353,10 +363,9 @@ max-width: 50%;
   padding-left: 50px;
 }
 
-#download .components P{
+#download .components p {
   padding-top: 20px;
 }
-
 
 /*#about
 
@@ -373,7 +382,7 @@ max-width: 50%;
   padding-bottom: 50px;
   padding-top: 100px;
   margin: 50px;
-  box-shadow: 5px 6px 29px -13px rgba(0,0,0,1);
+  box-shadow: 5px 6px 29px -13px rgba(0, 0, 0, 1);
 }
 
 .concepts {
@@ -381,7 +390,7 @@ max-width: 50%;
   margin: 50px;
   background-color: white;
   padding-top: 100px;
-  box-shadow: 5px 6px 29px -13px rgba(0,0,0,1);
+  box-shadow: 5px 6px 29px -13px rgba(0, 0, 0, 1);
 }
 
 .newIterations {
@@ -389,9 +398,8 @@ max-width: 50%;
   margin: 50px;
   background-color: white;
   padding-top: 100px;
-  box-shadow: 5px 6px 29px -13px rgba(0,0,0,1);
+  box-shadow: 5px 6px 29px -13px rgba(0, 0, 0, 1);
 }
-
 
 .form {
   padding-bottom: 50px;
@@ -399,18 +407,23 @@ max-width: 50%;
   background-color: white;*/
 }
 
-
 .components {
   padding-bottom: 50px;
   margin: 50px;
   background-color: white;
   padding-top: 100px;
-  box-shadow: 5px 6px 29px -13px rgba(0,0,0,1);
+  box-shadow: 5px 6px 29px -13px rgba(0, 0, 0, 1);
 }
 
+.prototype {
+  padding-bottom: 50px;
+  margin: 50px;
+  background-color: white;
+  padding-top: 100px;
+  box-shadow: 5px 6px 29px -13px rgba(0, 0, 0, 1);
+}
 .process {
   padding-bottom: 50px;
-
 }
 
 .poster {
@@ -418,7 +431,7 @@ max-width: 50%;
   margin: 50px;
   background-color: white;
   padding-top: 100px;
-  box-shadow: 5px 6px 29px -13px rgba(0,0,0,1);
+  box-shadow: 5px 6px 29px -13px rgba(0, 0, 0, 1);
 }
 
 .nextSteps h2 {
@@ -434,8 +447,12 @@ max-width: 50%;
   text-align: left;
 }
 
+.iterationOne h2 {
+  padding-top: 100px;
+  text-align: center;
+}
 
-#download .components img {
+.iterationOne #download .components img {
   padding-top: 0px;
 }
 
@@ -446,16 +463,16 @@ p {
   padding-left: 20px;
 }
 
-.goals p{
+.goals p {
   text-align: center;
 }
 
-.problemAreas p{
+.problemAreas p {
   text-align: center;
   padding-top: 10px;
 }
 
- .copyright .text-center p {
+.copyright .text-center p {
   text-align: center;
 }
 
@@ -482,53 +499,50 @@ p {
 /*MEDIA QUERIES*/
 @media (max-width: 576px) {
   #download .form img {
- display: none;
+    display: none;
+  }
+  #download .form p {
+    padding-left: 20px;
+  }
+  #download .form .pLeft p {
+    padding-left: 20px;
+  }
+  #download .form .pLeft h5 {
+    padding-left: 20px;
+  }
+  p {
+    padding-left: 20px;
+  }
+  h2 {
+    padding-left: 20px;
+  }
+  .problemAreas img {
+    display: none;
+  }
+  .iterations img {
+    padding-top: 20px;
+  }
+  .research {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  .concepts {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  .newIterations {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  .components {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  .poster {
+    margin: 10px;
+    padding-top: 10px;
+  }
 }
-#download .form p {
-  padding-left: 20px;
-}
-#download .form .pLeft p {
-  padding-left: 20px;
-}
-#download .form .pLeft h5 {
-  padding-left: 20px;
-}
-p {
-  padding-left: 20px;
-}
-h2 {
-  padding-left: 20px;
-}
-.problemAreas img{
-  display: none;
-}
-.iterations img {
-  padding-top: 20px;
-}
-.research {
-  margin: 10px;
-  padding-top: 10px;
-}
-.concepts {
-  margin: 10px;
-  padding-top: 10px;
-}
-.newIterations {
-  margin: 10px;
-  padding-top: 10px;
-}
-.components {
-  margin: 10px;
-  padding-top: 10px;
-}
-.poster {
-  margin: 10px;
-  padding-top: 10px;
-}
-}
-
-
-
 
 /*@media (min-width: 768px) {
   #download .iterations .com {
@@ -544,7 +558,6 @@ h2 {
  display: none;
 }*/
 
-
 /*@media (max-width: 576px) {
   #download .form img {
  display: none;
@@ -553,41 +566,38 @@ h2 {
 */
 @media (max-width: 823px) {
   #download .form img {
- padding-top: 50px;
-}
-p {
-  padding: 20px;
-}
-h2 {
-  padding: 20px;
-}
+    padding-top: 50px;
+  }
+  p {
+    padding: 20px;
+  }
+  h2 {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 700px) {
   #download .form img {
- padding-top: 90px;
+    padding-top: 90px;
+  }
+  .research {
+    margin: 25px;
+    padding-top: 50px;
+  }
+  .concepts {
+    margin: 25px;
+    padding-top: 50px;
+  }
+  .newIterations {
+    margin: 25px;
+    padding-top: 50px;
+  }
+  .components {
+    margin: 25px;
+    padding-top: 50px;
+  }
+  .poster {
+    margin: 25px;
+    padding-top: 50px;
+  }
 }
-.research {
-  margin: 25px;
-  padding-top: 50px;
-}
-.concepts {
-  margin: 25px;
-  padding-top: 50px;
-}
-.newIterations {
-  margin: 25px;
-  padding-top: 50px;
-}
-.components {
-  margin: 25px;
-  padding-top: 50px;
-}
-.poster {
-  margin: 25px;
-  padding-top: 50px;
-}
-}
-
-
-  
